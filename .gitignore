@@ -1,0 +1,9 @@
+# Ignore virtual environment and large dependency files
+.venv/
+*.dll
+*.lib
+
+# Ignore ChromaDB database files
+chromadb/
+chroma_db/
+*.sqlite3
